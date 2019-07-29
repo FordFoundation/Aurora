@@ -16,7 +16,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installing
 
-Copy [RACAUU] (https://github.com/FordFoundation/Aurora/RACAUU) folder to your local drive and change 
+Copy [RACAUU](https://github.com/FordFoundation/Aurora/RACAUU) folder to your local drive and change 
 
 Below information needs to update in the RACAUU.exe.config file in [RACAUU] folder:
     <add key="HostName" value="HostURL"/>  <!--SFTP URL-->
@@ -58,21 +58,20 @@ You should receive a message that the bag transfer was successful. If the transf
 
 ## Development 
 
-Download the source code (https://github.com/FordFoundation/Aurora/) to your location machine and open the solution/project in Visual Studio 2017 or later versions.
+Download the source code AUU(https://github.com/FordFoundation/Aurora/) to your location machine and open the solution/project in Visual Studio 2017 or later versions.
 Update the App.config according to your organization requirements as mentioned in How to use it steps. 
 
 ## Build
- Visual Studio 2017 or later versions.
- .NET Command-Line Interface
- Jenkins MSBuild.exe
+
+Visual Studio 2017 or later versions.
+.NET Command-Line Interface
+Jenkins MSBuild.exe
  
 ## Contributing
 
+
 Ford Foundation is not looking to enhance the AUU based on other organizations use and that we are not soliciting contributions. 
 
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
