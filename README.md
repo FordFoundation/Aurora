@@ -18,7 +18,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 Copy [RACAUU](https://github.com/FordFoundation/Aurora/tree/master/RACAUU) folder to your local drive and change 
 
-Below information needs to update in the RACAUU.exe.config file in [RACAUU] folder:
+Below information needs to update in the RACAUU.exe.config file in [RACAUU](https://github.com/FordFoundation/Aurora/tree/master/RACAUU) folder:
 
     ```
     *<add key="HostName" value="HostURL"/>  <!--SFTP URL, RAC will provide this information-->
