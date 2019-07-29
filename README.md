@@ -22,21 +22,14 @@ Below information needs to update in the RACAUU.exe.config file in [RACAUU] fold
 
     ```
     *<add key="HostName" value="HostURL"/>  <!--SFTP URL, RAC will provide this information-->
-      <add key="SFTPUserName" value="SFTPusername"/> <!--SFTP User Name, RAC will provide this information-->
-    
-    <add key="SFTPPassword" value="SFTPPassword"/> <!--SFTP Password, RAC will provide this information-->
-    
-    <add key="SFTPPort" value="PortNo"/>  <!--SFTP Port Number, RAC will provide this information-->
-    
-    <add key="SFTPDirectory" value="./upload"/>  <!--SFTP Directory to upload files-->
-    
-    <add key="PythonExePath" value="cd C:/python34"/>  <!--python installation folder path on your local machine-->
-    
-    <add key="PythonDirectory" value="C:"/>        <!--python installed directory on your local machine-->
-    
-    <add key="Profile_Json" value="http://aurora.dev.rockarch.org/api/bagit_profiles/5.json"/> <!--Profile path for validate-->
-    
-    <add key="SourceOrganization" value="OrganizationName"/>  <!--Your Organization Name -->]
+     <add key="SFTPUserName" value="SFTPusername"/> <!--SFTP User Name, RAC will provide this information-->
+     <add key="SFTPPassword" value="SFTPPassword"/> <!--SFTP Password, RAC will provide this information-->
+     <add key="SFTPPort" value="PortNo"/>  <!--SFTP Port Number, RAC will provide this information-->
+     <add key="SFTPDirectory" value="./upload"/>  <!--SFTP Directory to upload files-->
+     <add key="PythonExePath" value="cd C:/python34"/>  <!--python installation folder path on your local machine-->
+     <add key="PythonDirectory" value="C:"/>        <!--python installed directory on your local machine-->
+     <add key="Profile_Json" value="http://aurora.dev.rockarch.org/api/bagit_profiles/5.json"/> <!--Profile path for validate-->
+     <add key="SourceOrganization" value="OrganizationName"/>  <!--Your Organization Name -->]
     
     ```
     
