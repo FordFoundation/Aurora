@@ -22,8 +22,7 @@ Below information needs to update in the RACAUU.exe.config file in [RACAUU] fold
 
     ```
     *<add key="HostName" value="HostURL"/>  <!--SFTP URL, RAC will provide this information-->
-    
-    <add key="SFTPUserName" value="SFTPusername"/> <!--SFTP User Name, RAC will provide this information-->
+      <add key="SFTPUserName" value="SFTPusername"/> <!--SFTP User Name, RAC will provide this information-->
     
     <add key="SFTPPassword" value="SFTPPassword"/> <!--SFTP Password, RAC will provide this information-->
     
