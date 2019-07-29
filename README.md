@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-          1) Windows 8 or above
+      1) Windows 8 or above
 	  2) Microsoft .NET Framework 4.6.2 or above
 	  3) python 3.4 or later is required
 	  4) Access to SFTP Share location (RAC will provide SFTP information)
