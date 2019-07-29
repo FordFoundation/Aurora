@@ -99,4 +99,8 @@ This project is licensed under the MIT License - see the [LICENSE.md](https://gi
 
 ## Acknowledgments
 
-This project consumed huge amount of work, research and dedication. Still, implementation would not have been possible if we did not have a support of Ford Foundation and RAC. Therefore we would like to extend our sincere gratitude to Ford Foundation.
+This project consumed huge amount of work, research and dedication. Still, implementation would not have been possible if we did not have a support of Ford Foundation and RAC. Therefore we would like to extend our sincere gratitude to Ford Foundation team
+
+* Kevin Zhao
+
+* Donohue Andrea
