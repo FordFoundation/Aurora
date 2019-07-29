@@ -63,9 +63,14 @@ Update the App.config according to your organization requirements as mentioned i
 
 ## Build
 
-Visual Studio 2017 or later versions.
-.NET Command-Line Interface
-Jenkins MSBuild.exe
+* [Visual Studio 2017 or later versions](https://docs.microsoft.com/en-us/dotnet/core/tutorials/with-visual-studio) - with IDE
+* [.NET Command-Line Interface](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-options/command-line-building-with-csc-exe) - From command line interface
+* [Jenkins MSBuild.exe](https://www.c-sharpcorner.com/article/integrate-jenkins-with-msbuild/) - Jenkins
+
+## Build With
+
+* .NET C#
+* Python
  
 ## Contributing
 
@@ -83,6 +88,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](https://gi
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* This project consumed huge amount of work, research and dedication. Still, implementation would not have been possible if we did not have a support of Ford Foundation and RAC. Therefore we would like to extend our sincere gratitude to Ford Foundation.
