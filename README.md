@@ -19,7 +19,7 @@ These instructions will get you a copy of the project up and running on your loc
 Copy [RACAUU](https://github.com/FordFoundation/Aurora/tree/master/RACAUU) folder to your local drive and change 
 
 Below information needs to update in the RACAUU.exe.config file in [RACAUU] folder:
-    <add key="HostName" value="HostURL"/>  <!--SFTP URL-->
+    [<add key="HostName" value="HostURL"/>  <!--SFTP URL-->
     <add key="SFTPUserName" value="SFTPusername"/>
     <add key="SFTPPassword" value="SFTPPassword"/>
     <add key="SFTPPort" value="PortNo"/>  
@@ -27,7 +27,7 @@ Below information needs to update in the RACAUU.exe.config file in [RACAUU] fold
     <add key="PythonExePath" value="cd C:/python34"/>  <!--python installation folder path on your local machine-->
     <add key="PythonDirectory" value="C:"/>        <!--python installed directory on your local machine-->
     <add key="Profile_Json" value="http://aurora.dev.rockarch.org/api/bagit_profiles/5.json"/> <!--Profile path for validate-->
-    <add key="SourceOrganization" value="OrganizationName"/>  <!--Your Organization Name -->
+    <add key="SourceOrganization" value="OrganizationName"/>  <!--Your Organization Name -->]
     
 ## Running the application (How to use it)
 
