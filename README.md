@@ -63,7 +63,7 @@ Update the App.config according to your organization requirements as mentioned i
 
 ## Build
 
-* [Visual Studio 2017 or later versions](https://docs.microsoft.com/en-us/dotnet/core/tutorials/with-visual-studio) - with IDE
+* [Visual Studio 2017 or later versions](https://docs.microsoft.com/en-us/dotnet/core/tutorials/with-visual-studio) - IDE
 * [.NET Command-Line Interface](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-options/command-line-building-with-csc-exe) - From command line interface
 * [Jenkins MSBuild.exe](https://www.c-sharpcorner.com/article/integrate-jenkins-with-msbuild/) - Jenkins
 
