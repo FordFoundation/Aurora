@@ -1,6 +1,6 @@
-# Project Title
+# Aurora Upload Utility (AUU)
 
-One Paragraph of project description goes here
+The Aurora Upload Utility (AUU) is an application designed to allow users to apply RAC required metadata to a digital record transfer. The utility enables users to select a folder(s) or file(s) with the same metadata and push it to the RAC Aurora repository. 
 
 ## Getting Started
 
@@ -8,30 +8,27 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+    1) Windows 8 or above
+	  2) Microsoft .NET Framework 4.6.2 or above
+	  3) python 3.4 or later is required
+	  4) Access to SFTP Share location (RAC will provide SFTP information)
+	  5) SFTP Port should be open in user system (RAC will provide SFTP port information)
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+Copy [RACAUU] (https://github.com/FordFoundation/Aurora/RACAUU) folder to your local drive and change 
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
+Below information needs to update in the RACAUU.exe.config file in [RACAUU] folder:
+    <add key="HostName" value="HostURL"/>  <!--SFTP URL-->
+    <add key="SFTPUserName" value="SFTPusername"/>
+    <add key="SFTPPassword" value="SFTPPassword"/>
+    <add key="SFTPPort" value="PortNo"/>  
+    <add key="SFTPDirectory" value="./upload"/>  <!--SFTP Directory to upload files-->
+    <add key="PythonExePath" value="cd C:/python34"/>  <!--python installation folder path on your local machine-->
+    <add key="PythonDirectory" value="C:"/>        <!--python installed directory on your local machine-->
+    <add key="Profile_Json" value="http://aurora.dev.rockarch.org/api/bagit_profiles/5.json"/> <!--Profile path for validate-->
+    <add key="SourceOrganization" value="OrganizationName"/>  <!--Your Organization Name -->
+    
 ## Running the tests
 
 Explain how to run the automated tests for this system
