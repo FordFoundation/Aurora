@@ -58,7 +58,7 @@ You should receive a message that the bag transfer was successful. If the transf
 
 ## Development 
 
-Download the source code AUU(https://github.com/FordFoundation/Aurora/) to your location machine and open the solution/project in Visual Studio 2017 or later versions.
+Download the source code [AUU](https://github.com/FordFoundation/Aurora/) to your location machine and open the solution/project in Visual Studio 2017 or later versions.
 Update the App.config according to your organization requirements as mentioned in How to use it steps. 
 
 ## Build
