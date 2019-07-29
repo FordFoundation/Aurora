@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-    1) Windows 8 or above
+          1) Windows 8 or above
 	  2) Microsoft .NET Framework 4.6.2 or above
 	  3) python 3.4 or later is required
 	  4) Access to SFTP Share location (RAC will provide SFTP information)
@@ -29,39 +29,46 @@ Below information needs to update in the RACAUU.exe.config file in [RACAUU] fold
     <add key="Profile_Json" value="http://aurora.dev.rockarch.org/api/bagit_profiles/5.json"/> <!--Profile path for validate-->
     <add key="SourceOrganization" value="OrganizationName"/>  <!--Your Organization Name -->
     
-## Running the tests
+## Running the application (How to use it)
 
-Explain how to run the automated tests for this system
+Once the AUU is setup on your machine, you can begin using it. 
+ 
+Step 1: Open the utility and make sure that the "Record Type" field is populated with your organization's record types (these will be different for each organization)
+ 
+Step 2: Ensure the size of the records you want to accession does not exceed 2 GB. If it does exceed 2 GB you will have to break up the bag and send it in multiple transfers
+ 
+Step 3: Choose to transition either Files or Folders and click the "Choose Files/Folders" button to select the file(s) or folder(s) you want to include in the bag. If you want to include both you must add each type (files or folders) to the bag separately.
+ 
+Step 4: Provide the remaining metadata for the material you are transfering
+	Internal Sender Description
+	Title
+	Start Date
+	End Date
+	Record Type (record series)
+	External ID (this is the organization's ID)
+	Bag count (to be used only if a single accession or bag needs to be split and sent in two transfers)
+	Bag Group Identifier (to be used only if a single accession or bag needs to be split and sent in two transfers)
+	Record Creator (this refers to the creators of the business record NOT the AUU record)
+	Language
+ 
+Step 4: Click the "Create and Validate" button 
+ 
+You should receive a message that the bag transfer was successful. If the transfer failed, you should run it again. 
 
-### Break down into end to end tests
 
-Explain what these tests test and why
+## Development 
 
-```
-Give an example
-```
+Download the source code (https://github.com/FordFoundation/Aurora/) to your location machine and open the solution/project in Visual Studio 2017 or later versions.
+Update the App.config according to your organization requirements as mentioned in How to use it steps. 
 
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
+## Build
+ Visual Studio 2017 or later versions.
+ .NET Command-Line Interface
+ Jenkins MSBuild.exe
+ 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Ford Foundation is not looking to enhance the AUU based on other organizations use and that we are not soliciting contributions. 
 
 ## Versioning
 
@@ -69,9 +76,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+[Ford Foundation](https://www.fordfoundation.org/)
 
 ## License
 
